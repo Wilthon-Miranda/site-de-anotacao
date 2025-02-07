@@ -1,0 +1,52 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -90%);
+    padding: 20px;
+    border: 1px solid black;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    margin: 100px auto; /* Centraliza horizontalmente */
+}
+
+.conectar {
+    position: sticky;
+    float: right;
+}
+
+
+.informacoes input {
+    display: block; /* Garante que cada input fique em uma linha */
+    width: 100%; /* O input preenche a largura disponível */
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px; /* Espaço entre os campos */
+}
+
+.spanCadastro {
+    font-size:0.3cm;
+}
+
+.conectar {
+    float: right; /* Move o botão para a direita */
+    padding: 5px 10px; /* Ajuste o padding do botão */
+    background-color: #00614E; /* Cor de fundo para estilo */
+    border-radius: 200px;
+    color: white; /* Cor do texto */
+    border: none; /* Remove borda padrão */
+    cursor: pointer; /* Cursor de mão ao passar sobre o botão */
+}
+
+.conectar:hover {
+    background-color: #45a049; /* Muda a cor ao passar o mouse */
+}

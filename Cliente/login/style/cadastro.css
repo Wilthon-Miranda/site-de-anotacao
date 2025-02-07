@@ -1,0 +1,85 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.cadastro {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -90%);
+    padding: 20px;
+    border: 1px solid black;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    margin: 100px auto;
+    /* Centraliza horizontalmente */
+}
+
+.cadastrar {
+    position: sticky;
+    float: right;
+    /* Move o botão para a direita */
+}
+
+.cadastrar {
+    padding: 5px 10px;
+    /* Ajuste o padding do botão */
+    background-color: #00614E;
+    /* Cor de fundo para estilo */
+    border-radius: 200px;
+    color: white;
+    /* Cor do texto */
+    border: none;
+    /* Remove borda padrão */
+    cursor: pointer;
+    /* Cursor de mão ao passar sobre o botão */
+}
+
+.cadastrar:hover {
+    background-color: #45a049;
+    /* Muda a cor ao passar o mouse */
+}
+
+.voltar {
+    position: sticky;
+    float: left;
+    /* Move o botão para a direita */
+}
+
+.voltar {
+    padding: 5px 10px;
+    /* Ajuste o padding do botão */
+    background-color: #00614E;
+    /* Cor de fundo para estilo */
+    border-radius: 200px;
+    color: white;
+    /* Cor do texto */
+    border: none;
+    /* Remove borda padrão */
+    cursor: pointer;
+    /* Cursor de mão ao passar sobre o botão */
+}
+
+.voltar:hover {
+    background-color: #45a049;
+    /* Muda a cor ao passar o mouse */
+}
+
+.informacoes input {
+    display: block;
+    width: 100%;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.informacoes input.sexos {
+    display: inline-block; /* Sobrescreve o display: block para a classe .sexo */
+    width: auto; /* Sobrescreve a largura apenas para esse input */
+    font-size: small;
+}

@@ -1,0 +1,98 @@
+ #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 colunas */
+  gap: 20px; /* Espaçamento entre os elementos */
+  justify-content: center; /* Centraliza no eixo horizontal */
+  align-items: center; /* Centraliza no eixo vertical */
+  height: 100vh; /* Ocupa a altura inteira da tela */
+  justify-content: space-between; /* Distribui uniformemente */
+  gap: 10px; /* Reduz o espaçamento */
+}
+
+.anotacao {
+  width: 200px; /* Largura fixa */
+  height: 400px; /* Altura mínima */
+  border: 2px solid black;
+  padding: 15px; /* Espaçamento interno */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #4a1414; /* Fundo leve para diferenciar */
+  margin-bottom: 10px; /* Reduza se necessário */
+  padding-bottom: 10px;
+  min-height: auto;
+}
+
+/* Estilo para o título (textarea) */
+.titulo {
+  width: calc(100% - 0px); /* Ajuste para bordas */
+  min-height: 30px; /* Altura mínima */
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  background: transparent;
+  resize: none;
+  text-align: center;
+  overflow: hidden;
+  outline: none;
+  padding: 5px;
+}
+
+/* Estilo para o texto (textarea) */
+.texto {
+  width: calc(100% - 30px); /* Largura considerando margem */
+  min-height: calc(75% - 20px); /* Altura mínima */
+  max-width: 100%;
+  border: 1px solid #ccc;
+  padding: 5px;
+  font-size: 14px;
+  resize: none;
+}
+
+/* Ajusta dinamicamente a altura do textarea */
+textarea:focus, textarea:not(:placeholder-shown) {
+  height: auto;
+} 
