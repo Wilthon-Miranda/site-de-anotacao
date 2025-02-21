@@ -10,8 +10,7 @@ export const useAnotacoes = () => {
   const id = urlParams.get('id');
   if (!id) {
     // Se não estiver, redireciona para a tela de login
-    window.location.href = "http://127.0.0.1:5500/Cliente/login/login.html";
-
+    window.alert("Favor abrir o arquivo SITE-DE-ANOTACAO/Cliente/login/login.html")
 }
 
   useEffect(() => {

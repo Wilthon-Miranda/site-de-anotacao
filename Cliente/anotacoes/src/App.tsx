@@ -38,7 +38,7 @@ const Anotacoes = () => {
       </div>
      
       {anotacoes.length > 0 &&
-        anotacoes.map((anotacao) => (
+        [...anotacoes].map((anotacao) => (
           <div key={anotacao.id_anotacao} className="anotacao">
             <textarea
               id={`titulo-${anotacao.id_anotacao}`}
